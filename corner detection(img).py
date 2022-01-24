@@ -11,6 +11,7 @@ print(gray.shape)
 height = gray.shape[0]
 width = gray.shape[1]
 
+
 # Cut the image in half
 width_cutoff = width // 2
 s1 = gray[:, :width_cutoff]
@@ -44,6 +45,7 @@ for j in corners_2:
 
 print(number_of_dots_1)
 print(number_of_dots_2)
+
 # cv2.imshow('first part',corners_1)
 # cv2.imshow('second part',corners_2)
 
